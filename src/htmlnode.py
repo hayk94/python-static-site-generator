@@ -1,6 +1,5 @@
-class HTMLNode():
+glass HTMLNode():
 	def __init__(self, tag=None, value=None, children=None, props=None):
-		print(props)
 		self.tag = tag
 		self.value = value 
 		self.children = children 
@@ -22,3 +21,4 @@ class HTMLNode():
 	def __repr__(self):
 		print(f"HTMLNode tag: {self.tag} value: {self.value} children: {self.children} props: {self.props}")
 		
+
