@@ -1,4 +1,4 @@
-from textnode import TextType
+from textnode import TextType, TextNode
 from leafnode import LeafNode
 
 def text_node_to_html_node(text_node):
@@ -17,3 +17,4 @@ def text_node_to_html_node(text_node):
 			return LeafNode("img", None, {"src": text_node.url, "alt": text_node.text})
 		case _: 
 			raise Exception("TextNode is of unknown type")
+
