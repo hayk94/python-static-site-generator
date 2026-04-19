@@ -1,6 +1,6 @@
 import unittest
 
-from helpers import *
+from node_to_html import text_node_to_html_node
 from textnode import TextNode, TextType
 
 class TestHelpers(unittest.TestCase):
